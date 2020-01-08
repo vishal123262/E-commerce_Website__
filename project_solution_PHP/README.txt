@@ -1,8 +1,8 @@
-**************Internshala VTC Web Development Project Solution*************************************************
+************** Web Development Project Solution*************************************************
 
 DESCRIPTION: This is the solution to the e-commerce website 
 
-Extract the files from project_solution.zip.
+Extract the files from project_solution.php
 
 _____________________________________________Folder Structure__________________________________________________
 	
@@ -51,13 +51,12 @@ ____________________________________________SETUP_______________________________
 5.) Open the browser (chrome), type localhost/lifestylestore and you should see the index page of the website.
 
 *******************************************************************************************************************************************
-CONTACT: vtc-support@internshala.com
-WEBSITE: www.vtc.internshala.com
+CONTACT: vishalmodani647@gmail.com
 
 *******************************************************************************************************************************************
 LICENSE AND COPYRIGHT: All the images used for this project are representational images.
-Internshala holds no copyright over these images.
+I donot hold no copyright over these images.
 TRADEMARKS:
-1.)The trademarks of the brands belong to the respective brands and Internshala does not trademark violations.
-2.)"Lifestyle" and "Lifestyle store" are not registered trademarks of Internshala nor it holds any copyright over the use of these words.
+1.)The trademarks of the brands belong to the respective brands and I have not  done trademark violations.
+2.)"Lifestyle" and "Lifestyle store" are not registered trademarks of mine(Vishal Modani) nor I hold any copyright over the use of these words.
 
