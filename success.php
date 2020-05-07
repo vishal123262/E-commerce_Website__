@@ -1,6 +1,6 @@
 <?php
 
-require("includes/common.php");
+require "includes/common.php";
 if (!isset($_SESSION['email'])) {
     header('location: index.php');
 }
@@ -8,7 +8,12 @@ $user_id = $_SESSION['user_id'];
 $item_ids_string = $_GET['itemsid'];
 
 //We will change the status of the items purchased by the user to 'Confirmed'
-$query = "UPDATE users_items SET status='Confirmed' WHERE user_id=" . $user_id . " AND item_id IN (" . $item_ids_string . ") and status='Added to cart'";
+$query =
+    "UPDATE users_items SET status='Confirmed' WHERE user_id=" .
+    $user_id .
+    " AND item_id IN (" .
+    $item_ids_string .
+    ") and status='Added to cart'";
 mysqli_query($con, $query) or die($mysqli_error($con));
 ?>
 
@@ -30,7 +35,6 @@ mysqli_query($con, $query) or die($mysqli_error($con));
                 </div>
             </div>
         </div>
-        <?php include("includes/footer.php");
-        ?>
+        <?php include "includes/footer.php"; ?>
     </body>
 </html>

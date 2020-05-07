@@ -1,5 +1,5 @@
 <?php
-require_once("includes/common.php");
+require_once "includes/common.php";
 if (!isset($_SESSION['email'])) {
     header('location: index.php');
 }
@@ -32,13 +32,13 @@ if (!isset($_SESSION['email'])) {
                             <input type="password" class="form-control" name="password1"  placeholder="Re-type New Password" required = "true">
                         </div>
                         <button type="submit" class="btn btn-primary">Change</button>
-                        <?php
-                        echo "<br><br><b class='red'>" . $_GET['error'] . "</b>";
-                        ?>
+                        <?php echo "<br><br><b class='red'>" .
+                            $_GET['error'] .
+                            "</b>"; ?>
                     </form>
                 </div>
             </div>
         </div>
-        <?php include("includes/footer.php"); ?>
+        <?php include "includes/footer.php"; ?>
     </body>
 </html>

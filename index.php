@@ -1,11 +1,10 @@
 <?php
-require("includes/common.php");
+require "includes/common.php";
 
 // Redirects the user to products page if he/she is logged in.
 if (isset($_SESSION['email'])) {
-  header('location: products.php');
+    header('location: products.php');
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -23,9 +22,7 @@ if (isset($_SESSION['email'])) {
     </head>
     <body style="padding-top: 50px;">
         <!-- Header -->
-        <?php
-        include 'includes/header.php';
-        ?>
+        <?php include 'includes/header.php'; ?>
         <!--Header end-->
 
         <div id="content">
@@ -89,9 +86,7 @@ if (isset($_SESSION['email'])) {
         </div>
         
         <!--Footer-->
-        <?php
-        include 'includes/footer.php';
-        ?>
+        <?php include 'includes/footer.php'; ?>
         <!--Footer end-->
    
     </body> 
