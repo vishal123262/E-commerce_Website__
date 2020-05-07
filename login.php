@@ -1,5 +1,5 @@
 <?php
-require("includes/common.php");
+require "includes/common.php";
 // Redirects the user to products page if logged in.
 if (isset($_SESSION['email'])) {
     header('location: products.php');
